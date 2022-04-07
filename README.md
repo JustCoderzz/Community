@@ -2,7 +2,7 @@
 一个仿照牛客网实现的讨论社区，不仅实现了基本的注册，登录，发帖，评论，点赞，回复功能，同时使用前缀树实现敏感词过滤，使用wkhtmltopdf生成长图和pdf，实现网站UV和DAU统计，并将用户头像等信息存于七牛云服务器。
 
 ## 技术选型
-![](.images/arc.png)
+![](community/.images/arc.png)
 
 ## 功能简介
 * 使用Spring Security 做权限控制，替代拦截器的拦截控制，并使用自己的认证方案替代Security 认证流程，使权限认证和控制更加方便灵活。
@@ -25,9 +25,9 @@
 | nginx         | 1.10   | http://nginx.org/en/download.html | 
 ## 运行效果展示
 * 首页
-![](.images/index.png)
+![](community/.images/index.png)
 * 消息
-![](.images/message.png)
+![](community/.images/message.png)
 ## 后续更新点
 * 增加收藏功能
 * 增强对话框功能
