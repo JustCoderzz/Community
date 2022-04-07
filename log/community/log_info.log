@@ -1,0 +1,56 @@
+2022-03-03 12:59:18,888 INFO [main] c.n.c.LoggerTests [StartupInfoLogger.java:50] Starting LoggerTests on LAPTOP-EMQ04GPV with PID 26864 (started by Lu  sir in D:\git项目库\仿牛客项目\community)
+2022-03-03 12:59:18,891 INFO [main] c.n.c.LoggerTests [SpringApplication.java:679] The following profiles are active: develop
+2022-03-03 12:59:20,714 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-03 12:59:20,718 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-03 12:59:20,913 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 186ms. Found 1 repository interfaces.
+2022-03-03 12:59:20,928 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-03-03 12:59:20,930 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-03-03 12:59:20,973 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nowcoder.community.dao.elasticsearch.DiscussPostRepository.
+2022-03-03 12:59:20,974 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2022-03-03 12:59:21,830 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$396045e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 12:59:21,891 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65ae3460] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-03-03 12:59:23,913 INFO [main] c.n.c.c.WkConfig [WkConfig.java:33] 创建WK图片目录: J:/javaProject/data/wk-images
+2022-03-03 12:59:24,463 INFO [main] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
+2022-03-03 12:59:24,465 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2022-03-03 12:59:24,465 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2022-03-03 12:59:24,465 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2022-03-03 12:59:24,466 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2022-03-03 12:59:24,466 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2022-03-03 12:59:26,044 INFO [main] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
+2022-03-03 12:59:26,574 INFO [main] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'taskScheduler'
+2022-03-03 12:59:27,428 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-03-03 12:59:27,677 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-03-03 12:59:29,049 INFO [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:87] 
+
+Using generated security password: c082b971-ea22-46e4-9a48-648b517db330
+
+2022-03-03 12:59:29,157 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: Ant [pattern='/resources/**'], []
+2022-03-03 12:59:29,292 INFO [main] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11fb4f69, org.springframework.security.web.context.SecurityContextPersistenceFilter@1131fcfd, org.springframework.security.web.header.HeaderWriterFilter@189f2184, org.springframework.security.web.authentication.logout.LogoutFilter@21523e1b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e93e396, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32180efb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@618d2191, org.springframework.security.web.session.SessionManagementFilter@5f0c45ae, org.springframework.security.web.access.ExceptionTranslationFilter@68d1f4e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@344eaf7e]
+2022-03-03 12:59:29,821 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-03-03 12:59:31,168 INFO [main] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1208] Using default implementation for ThreadExecutor
+2022-03-03 12:59:31,191 INFO [main] o.q.c.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2022-03-03 12:59:31,192 INFO [main] o.q.c.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.1 created.
+2022-03-03 12:59:31,197 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-03-03 12:59:32,213 INFO [main] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:3644] Could not detect database type. Assuming locks can be taken.
+2022-03-03 12:59:32,214 INFO [main] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:672] Using db table-based data access locking (synchronization).
+2022-03-03 12:59:32,224 INFO [main] o.s.s.q.LocalDataSourceJobStore [JobStoreCMT.java:145] JobStoreCMT initialized.
+2022-03-03 12:59:32,225 INFO [main] o.q.c.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.1) 'communityScheduler' with instanceId 'LAPTOP-EMQ04GPV1646283571171'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2022-03-03 12:59:32,225 INFO [main] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1362] Quartz scheduler 'communityScheduler' initialized from an externally provided properties instance.
+2022-03-03 12:59:32,226 INFO [main] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1366] Quartz scheduler version: 2.3.1
+2022-03-03 12:59:32,226 INFO [main] o.q.c.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@349e166
+2022-03-03 12:59:32,229 INFO [main] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-03-03 12:59:33,247 INFO [main] o.q.c.QuartzScheduler [QuartzScheduler.java:666] Scheduler communityScheduler_$_LAPTOP-EMQ04GPV1646283571171 shutting down.
+2022-03-03 12:59:33,248 INFO [main] o.q.c.QuartzScheduler [QuartzScheduler.java:585] Scheduler communityScheduler_$_LAPTOP-EMQ04GPV1646283571171 paused.
+2022-03-03 12:59:33,697 INFO [main] o.q.c.QuartzScheduler [QuartzScheduler.java:740] Scheduler communityScheduler_$_LAPTOP-EMQ04GPV1646283571171 shutdown complete.
+2022-03-03 12:59:33,701 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-03-03 12:59:33,702 INFO [main] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'taskScheduler'
+2022-03-03 12:59:34,743 INFO [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
